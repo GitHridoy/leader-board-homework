@@ -3,12 +3,21 @@
 body{
     background-color: rgb(217, 209, 248);
 }
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*Top Player Section*/
 .container{
     width: 870px;
     height: 679px;
     background-color: white;
+    
+}
+.top-player{
+    
 }
 .players{
     display: grid;
