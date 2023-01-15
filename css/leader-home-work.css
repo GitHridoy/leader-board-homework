@@ -1,0 +1,21 @@
+
+
+body{
+    background-color: rgb(217, 209, 248);
+}
+
+/*Top Player Section*/
+.container{
+    width: 870px;
+    height: 679px;
+    background-color: white;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px;
+}
+.players .player img{
+    width: 56px;
+    height: 56px;
+}
